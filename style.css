@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+}
+
+.session1 {
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.aniversario_introdução {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.aniversario_introdução h1 {
+    font-weight: 500;
+}
+
+.pics {
+    width: fit-content;
+
+
+}
+
+#pic1 {
+    width: 130px;
+    height: 100px;
+}
+
+#pic2 {
+    width: 110px;
+}
+
+#pic3 {
+    width: 140px;
+    height: 80px;
+}
+
+.session2 {
+    width: fit-content;
+    height: 50%;
+}
+
+.background_message {
+    background-color: cadetblue;
+    width: 85%;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.message {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #406055;
+    background-color: white;
+    padding: 10px;
+    width: fit-content;
+    height: fit-content;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px #40605530;
+}
+
+.message audio {
+    width: 100%;
+    margin: 10px;
+}
+
+audio::-webkit-media-controls-panel {
+    background-color: cadetblue;
+    border: 0;
+}
+
+/* Configurações Responsivas */
+@media screen and (max-width: 768px) {
+    .pics {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #pic1 {
+        width: 100px;
+        height: 80px;
+    }
+
+    #pic2 {
+        width: 90px;
+    }
+
+    #pic3 {
+        width: 120px;
+    }
+
+    .message {
+        height: 50vh;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .aniversario_introdução h1 {
+        font-size: 24px;
+    }
+
+    .message {
+        height: 40vh;
+    }
+}
+
+.seta {
+    width: 30px;
+    padding: 20px;
+}
+
+#caixadepresente {
+    width: 50%;
+}
+
+
+.button {
+    background-color: cadetblue;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 20px;
+}
+
+.presente_session {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
